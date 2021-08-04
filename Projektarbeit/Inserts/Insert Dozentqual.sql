@@ -1,5 +1,4 @@
 begin transaction
-
 	insert into dozentenqual values (1,1);
 	insert into dozentenqual values (1,2);
 	insert into dozentenqual values (2,1);
@@ -54,7 +53,6 @@ begin transaction
 	insert into dozentenqual values (26,12);
 	insert into dozentenqual values (27,6);
 	insert into dozentenqual values (27,8);
+commit;
 
-	commit
-
-	select * from dozentenqual
+select * from dozentenqual;

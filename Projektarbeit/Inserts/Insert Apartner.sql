@@ -1,4 +1,4 @@
-select*from apartner;
+select * from apartner;
 
 begin transaction
 insert into apartner (Firmanr, avorname, aname, durchwahl) values (1, 'Maria', 'Anders', '01234371100');

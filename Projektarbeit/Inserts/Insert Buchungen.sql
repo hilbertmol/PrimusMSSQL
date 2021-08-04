@@ -208,7 +208,7 @@ values ( 4, 25 ,  '29.03.2021 ', 5 ); --5
 commit
 
 update b 
-set b.enddatum= dateadd(day,p.dauer+ceiling(p.dauer/5.0)*2-3, b.startdatum)
+set b.enddatum = dateadd(day, p.dauer+ceiling(p.dauer/5.0)*2-3, b.startdatum)
 from buchungen b inner join produkte p on b.produktid= p.produktid;
 
 select * from Buchungen

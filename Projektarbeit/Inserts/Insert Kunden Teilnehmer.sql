@@ -9,6 +9,5 @@ insert into Teilnehmer values ( 'Olaf','Scholz',19820, 'Reichskueche 1', 'Berlin
 insert into Teilnehmer values ( 'Martin','Schulz',28739, 'Alki str 2', 'Braunschweig', 'schulz_leoni@gmail.com',8);
 insert into Teilnehmer values ( 'Karl','Lauterbach',38290, 'lockdown str 1', 'Strandsund', 'lauterbach_vw@gmail.com',9);
 insert into Teilnehmer values ( 'Albert','Altmeier',14536, 'Alg str 3', 'Hamburg', 'altmeier_daimler@gmail.com',10);
-
 commit;
 

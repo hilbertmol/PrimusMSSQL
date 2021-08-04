@@ -28,5 +28,5 @@ insert into standort (stadt) values ('München');
 insert into standort (stadt) values ('Hamburg');
 commit;
 
-select * from standort
+select * from standort;
 
